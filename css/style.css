@@ -1,0 +1,113 @@
+body{
+
+    margin:0;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+a:hover {
+    color:white;
+}
+.container {
+    margin-top:50px;
+    position: relative;
+    padding: 30px;
+}
+.login{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+footer {
+
+
+        width: max-content;
+        margin: 0 auto;
+    
+}
+
+
+
+
+h2{
+    font-size:50px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+form {
+
+    opacity: 0.9;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    height: 700px;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+
+input {
+    width: 50%;
+    height: 30px;
+    border-width: 0 0 2px 0px;
+    border-color: white;
+    background-color: transparent;
+    font-size: 16px;
+    }  
+
+
+
+.forgot{
+    display: block;
+    position: relative;
+    left: 110px;
+    top: -40;
+    text-decoration: none;
+}
+
+.creat-new{
+    color:rgb(224, 224, 224);
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+button {
+    height: 50px;
+    width: 340px;
+    border: solid #f8d07b 3px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent  ;
+    font-size: 16px;
+    transform-origin: 50% 50%;
+    margin:0 auto;
+    }
+
+button:hover{
+
+    background-color:orange;
+    border: solid 3px #dba079;
+}
+
+button:active{
+
+    background-color:rgb(231, 150, 0);
+    border: solid 3px #fbb78a;
+}
